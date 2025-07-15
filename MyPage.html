@@ -1,0 +1,151 @@
+<!-- ============================= -->
+<!-- Project 1: Personal Portfolio Website -->
+<!-- ============================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shruti Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    .hero {
+      background-color: #f0f8ff;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .section-title {
+      text-align: center;
+      margin: 40px 0 20px;
+    }
+    .card img {
+      height: 180px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Shruti</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Hi, I'm Shruti Lokhande</h1>
+      <p>Frontend Developer | Trainer | WordPress Specialist</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p>I’m Shruti Lokhande, a Frontend Developer and Web Development Trainer with a passion for building clean, responsive websites and helping others learn how to do the same.
+
+With hands-on experience in HTML5, CSS3, JavaScript (ES6+), Bootstrap, and WordPress, I’ve worked on projects ranging from dynamic applications to portfolio and business websites. I specialize in creating engaging user experiences and mobile-friendly interfaces.
+
+As a trainer, I’ve guided students in understanding core frontend concepts and building real-world projects. I focus on practical, project-based learning that builds both skills and confidence.
+
+</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+<img src="https://images.pexels.com/photos/139303/pexels-photo-139303.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Smart Parking App">
+            <div class="card-body">
+              <h5 class="card-title">Smart Parking App</h5>
+              <p class="card-text">A smart parking management system built with Angular and Bootstrap.</p>
+              <a href="https://github.com/shruti9195/Smart_Parking" class="btn btn-primary" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+<img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Responsive Blog Site">
+            <div class="card-body">
+              <h5 class="card-title">Responsive Blog Site</h5>
+              <p class="card-text">A mobile-friendly blog layout using HTML, CSS, and Bootstrap.</p>
+              <a href="Blog.html" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+<img src="https://images.pexels.com/photos/6476252/pexels-photo-6476252.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="WordPress Portfolio Site">
+            <div class="card-body">
+              <h5 class="card-title">WordPress Portfolio Site</h5>
+              <p class="card-text">Guided students to build and launch their own portfolio website on WordPress.</p>
+              <a href="Protfolio.html" class="btn btn-primary">View Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Your message..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Shruti Lokhande. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
